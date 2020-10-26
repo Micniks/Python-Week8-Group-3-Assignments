@@ -11,18 +11,24 @@ Dette github repository er tilrettet opgavestillinger, så udspecifieret her: [U
 
 #### Assignment 1, Data Persistance
 1. Make a class **Book** with the following variables:
+
     a. book_id
+    
     b. title
+    
     c. author
+    
     d. num_of_pages
+    
     e. published_date
+    
 2. Give the class a function **information**, that functions like a toString for the book
 3. Make a database called **book_repository**
 4. Make a **facade** class, that will handle communication with the database, with two functions, **Push** and **Pull**. How these work is up to you.
-4. Persist 5 books into the database as dummy data
-a. Check the database, to see if they are correctly stored
-b. try pulling them back into the notebook, and see if you can turned them back into an instance of the **Book** class.
-c. use the **information** function on the books pulled from the database.
+5. Persist 5 books into the database as dummy data
+    a. Check the database, to see if they are correctly stored
+    b. try pulling them back into the notebook, and see if you can turned them back into an instance of the **Book** class.
+    c. use the **information** function on the books pulled from the database.
 
 #### Assignment 2, Web Service
 *Note, that these endpoints does not have to be connected database yet, as that is part of Assignment 3, but you can do that right away if you wish*
