@@ -28,17 +28,24 @@ Dette github repository er tilrettet opgavestillinger, så udspecifieret her: [U
 5. Persist 5 books into the database as dummy data
 
     a. Check the database, to see if they are correctly stored
+    
     b. try pulling them back into the notebook, and see if you can turned them back into an instance of the **Book** class.
+    
     c. use the **information** function on the books pulled from the database.
 
 #### Assignment 2, Web Service
 *Note, that these endpoints does not have to be connected database yet, as that is part of Assignment 3, but you can do that right away if you wish*
 1. Setup a Web Service where you have the following endpoints with you **Book** class from Assignment 1.
-a. ***'/todo/api/book'*** as a **GET** endpoint, to get all books
-b. ***'/todo/api/book/<int:book_id>'*** as a **GET** endpoint, to get a specific book
-c. ***'/todo/api/book'*** as a **POST** endpoint, to add a book
-d. ***'/todo/api/book/<int:book_id>'*** as a **PUT** endpoint, to edit a specific book
-e. ***'/todo/api/book/<int:book_id>'*** as a **DELETE** endpoint, to delete a specific book
+
+    a. ***'/todo/api/book'*** as a **GET** endpoint, to get all books
+
+    b. ***'/todo/api/book/<int:book_id>'*** as a **GET** endpoint, to get a specific book
+
+    c. ***'/todo/api/book'*** as a **POST** endpoint, to add a book
+
+    d. ***'/todo/api/book/<int:book_id>'*** as a **PUT** endpoint, to edit a specific book
+
+    e. ***'/todo/api/book/<int:book_id>'*** as a **DELETE** endpoint, to delete a specific book
 
 
 #### Assignment 3, Combine and deploy
