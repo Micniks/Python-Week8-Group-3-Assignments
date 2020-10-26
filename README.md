@@ -9,7 +9,7 @@
 Dette github repository er tilrettet opgavestillinger, så udspecifieret her: [Uge7 Opgave](https://docs.google.com/document/d/1ojSiBWwLo4-Rc7763vx6aVEYdNluATOMja9qqk4dodU/edit#) 
 
 
-#### Assignment 1, Data Persistance
+## Assignment 1, Data Persistance
 1. Make a class **Book** with the following variables:
 
     a. book_id
@@ -33,7 +33,7 @@ Dette github repository er tilrettet opgavestillinger, så udspecifieret her: [U
     
     c. use the **information** function on the books pulled from the database.
 
-#### Assignment 2, Web Service
+## Assignment 2, Web Service
 *Note, that these endpoints does not have to be connected database yet, as that is part of Assignment 3, but you can do that right away if you wish*
 1. Setup a Web Service where you have the following endpoints with you **Book** class from Assignment 1.
 
@@ -48,7 +48,7 @@ Dette github repository er tilrettet opgavestillinger, så udspecifieret her: [U
     e. ***'/todo/api/book/<int:book_id>'*** as a **DELETE** endpoint, to delete a specific book
 
 
-#### Assignment 3, Combine and deploy
+## Assignment 3, Combine and deploy
 1. Edit assignement 1 & 2, so when a endpoint is used, the book changes are affecting the database instead of local data, if that is not already the case.
 2. Deploy the solution, in either of the two ways recommened from the material in 8.2 from the lessons.
 
