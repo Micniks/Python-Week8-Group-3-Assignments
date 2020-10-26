@@ -26,6 +26,7 @@ Dette github repository er tilrettet opgavestillinger, så udspecifieret her: [U
 3. Make a database called **book_repository**
 4. Make a **facade** class, that will handle communication with the database, with two functions, **Push** and **Pull**. How these work is up to you.
 5. Persist 5 books into the database as dummy data
+
     a. Check the database, to see if they are correctly stored
     b. try pulling them back into the notebook, and see if you can turned them back into an instance of the **Book** class.
     c. use the **information** function on the books pulled from the database.
