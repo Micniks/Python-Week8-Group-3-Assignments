@@ -11,17 +11,11 @@ Dette github repository er tilrettet opgavestillinger, så udspecifieret her: [U
 
 #### Assignment 1, Data Persistance
 1. Make a class **Book** with the following variables:
-
-*a. book_id*
-
-*b. title*
-
-*c. author*
-
-*d. num_of_pages*
-
-*e. published_date*
-
+  *a. book_id*
+  *b. title*
+  *c. author*
+  *d. num_of_pages*
+  *e. published_date*
 2. Give the class a function **information**, that functions like a toString for the book
 3. Make a database called **book_repository**
 4. Make a **facade** class, that will handle communication with the database, with two functions, **Push** and **Pull**. How these work is up to you.
